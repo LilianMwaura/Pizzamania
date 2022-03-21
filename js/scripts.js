@@ -139,3 +139,15 @@ $(document).ready(function () {
             console.log("Your total bills is Ksh." + checkoutTotal);
             $("#pizzatotal").append("Your bill is Ksh." + checkoutTotal);
         });
+        // home delivery button
+        $("button.deliver").click(function () {
+            $(".pizzatable").hide();
+            $(".choise h2").hide();
+            $(".delivery").slideDown(1000);
+            $("#addedprice").hide();
+            $("button.deliver").hide();
+            $("#pizzatotal").hide();
+            let deliveryAmount = checkoutTotal + 150;
+            console.log("You will pay Ksh. " + deliveryAmount + " on delivery");
+            $("#totalbill").append("Your bill plus delivery fee is Ksh." + deliveryAmount);
+        });
