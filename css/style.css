@@ -39,7 +39,7 @@ nav .navbar{
     background-attachment:fixed;
     padding-bottom: 20px;
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden;  */
 }
 .pi{color: rgb(6, 113, 252);}
 .zz{color: rgb(6, 113, 252);}
