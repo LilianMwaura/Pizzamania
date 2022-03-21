@@ -176,3 +176,28 @@ td,th{
     color:rgb(54, 101, 231);
     text-align: left;
 }
+#your-orders{
+    color: white;
+    font-size: 30px;
+}
+#addedprice{
+    display: none;
+}
+#finallmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+}
+#regards{
+    text-align: center;
+    color: aliceblue;
+}
+#information{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: hsl(209, 76%, 60%);
+}
