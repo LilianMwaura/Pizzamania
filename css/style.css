@@ -97,3 +97,21 @@ h5 {
     padding-bottom: 20px;
     font-weight: bolder;
 }
+#sample{
+    padding-top: 30px;
+}
+
+/* styling welcome image and arrow icon */
+.welcomee {
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+}
+.arrow{
+    position: relative;
+    left: 50%;
+    top: 90%;
+    margin-left:-20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
