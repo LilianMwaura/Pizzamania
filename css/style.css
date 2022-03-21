@@ -15,9 +15,6 @@ nav .navbar{
     width: 99%;
     padding-right: 0px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 5vh;
 }
 .navbar-brand{
     margin-right: 30%;
@@ -39,7 +36,7 @@ nav .navbar{
     background-attachment:fixed;
     padding-bottom: 20px;
     position: relative;
-    /* overflow-x: hidden;  */
+    overflow-x: hidden;  
 }
 .pi{color: rgb(6, 113, 252);}
 .zz{color: rgb(6, 113, 252);}
@@ -108,7 +105,7 @@ h5 {
     margin-top: 20px;
 }
 .arrow{
-    position: relative;
+    position: center;
     left: 50%;
     top: 90%;
     margin-left:-20px;
@@ -147,7 +144,7 @@ h5 {
     padding-bottom: 4%;
 }
 .order-overlay{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(224, 20, 20, 0.8);
     margin-left: 2%;
     margin-right: 2%;
     padding-bottom: 20px;
