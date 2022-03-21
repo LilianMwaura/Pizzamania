@@ -151,3 +151,31 @@ $(document).ready(function () {
             console.log("You will pay Ksh. " + deliveryAmount + " on delivery");
             $("#totalbill").append("Your bill plus delivery fee is Ksh." + deliveryAmount);
         });
+        // when one clicks place order button
+        $("button#final-order").click(function (event) {
+            event.preventDefault();
+
+            $("#pizzatotal").hide();
+            $(".delivery").hide();
+            $("button#final-order").hide();
+            let deliveryAmount = checkoutTotal + 150;
+            console.log("Final Bill is Ksh." + deliveryAmount);
+            let person = $("input#name").val();
+            let phone = $("input#phone").val();
+            let location = $("input#location").val();
+
+            if ($("input#name").val() && $("input#phone").val() && $("input#location").val() != "") {
+
+                $("#finallmessage").append("Dear " + person + ", we have recieved your order which should be delivered to you at " + location + ". Pay Ksh." + deliveryAmount + " upon delivery.");
+                $("#totalbill").hide();
+                $("#finallmessage").slideDown(1200);
+            }
+            else {
+                swal("Please fill in these details for successful delivery!");
+                $(".delivery").show();
+                $("button#final-order").show();
+            }
+        });
+        event.preventDefault();
+    });
+});
