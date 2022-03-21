@@ -308,3 +308,11 @@ ul {
   height: 170px;
   width: 300px;
 }
+/* upward arrow */
+.arrowup{
+    position: relative;
+    left: 50%;
+    margin-left:-20px;
+    height: 70px;
+    width: 100px;
+}
