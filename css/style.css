@@ -29,3 +29,49 @@ nav .navbar{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+/* styling landing page */
+.landing{
+    background-image: url("../images/sec/b1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+.pi{color: rgb(6, 113, 252);}
+.zz{color: rgb(6, 113, 252);}
+.hub{color: rgb(224, 213, 64);}
+.text a{
+    font-size: 20px;
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Kalam', cursive;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgb(230, 106, 5);
+}
+
+h2 {
+  color: #971d79;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:600;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.text h5{
+    font-size: 25px;
+    padding: 20px;
+}
+#head{
+    padding-top: 10%;
+}
+  /* button */
+.button{
+    border-radius: 40px;
+}
