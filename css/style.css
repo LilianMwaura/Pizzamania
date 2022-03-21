@@ -75,3 +75,25 @@ h5 {
 .button{
     border-radius: 40px;
 }
+
+/* carousel card section */
+.card-title{
+    text-align: center;
+    color: rgb(40, 147, 247);
+    font-weight: 800;
+}
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.controls-top h2{
+    color: rgb(233, 130, 13);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
